@@ -1,172 +1,165 @@
 /*DERP IT ALL STARTS HERE*/
 
-body {
-  background-color:#f6f2de;
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 p {
-  margin-top:0;
-}
-
-.l-box {
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-.topLogo {
-  background-image: url('logo.png');
-  background-repeat: no-repeat;
-  background-size: auto, auto;
-  background-position:center;
-  background-color:#ff782e;
-
-  padding:6em;
-}
-
-.pat1{
-  background-image: url('trees2.png');
-  background-repeat: repeat-x;
-  background-size: auto, 100%;
-  background-position:center;
-  background-color:#ff782e;
-}
-
-.pat2{
-  background-image: url('trees1.png');
-  background-repeat: repeat-x;
-  background-size: auto, 100%;
-  background-position:center;
-  background-color:#ff782e;
-}
-
-.tentLogo {
-  background-image: url('tent.png');
-  background-repeat: no-repeat;
-  background-size: auto, auto;
-  background-position:center;
-  padding:2em;
-}
-
-.introCopy {
-  background-color:#663339;
-  color:#f6f2de;
-  padding:1em;
-  text-align:center;
+  margin-top: 0;
   font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-  text-align: center;
-  font-size: 1.2em;
-}
-
-.boldCopy{
-  color:#e86b26;
+  font-size: 1.125em;
+  line-height: 1.4;
+  color:#663339;
+  padding: 0 1em;
 }
 
 h4 {
-  color:#e86b26;
+  color: #e86b26;
   font-family: 'Arvo', serif;
-  font-size:1.4em;
+  font-size: 1.4em;
+  line-height: 1.25;
   text-transform: uppercase;
-  margin:.6em;
+  padding: 0 1em;
+  margin: 0 0 0.5em 0;
 }
 
-#hackathons{
-  background-color:#f6f2de;
-  color:#663339;
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
+/* ---------------------
+HEADER
+--------------------- */
+
+.header {
+  background: url('trees2.png') repeat-x bottom #ff782e;
+  position: relative;
+}
+
+.topLogo {
   text-align: center;
-  font-size: 1em;
-
+  padding: 1.5em 1em 7em 1em;
 }
 
-#hackathons img {max-width:100%; }
-
-#hackathons p{
-  text-align: justify;
-  text-justify: inter-word;
-  padding: 1.8 1em 1.8 1em;
+.topLogo img {
+  width: 447px;
+  max-width: 100%;
 }
 
-.footrow{
-  padding: 2em 1em 1em;
+.trees-top {
+  background: url('trees1.png') repeat-x bottom center;
+  height: 84px;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+}
+
+.tent {
+  position: absolute;
+  z-index: 3;
+  width: 139px;
+  height: 138px;
+  left:0;
+  right:0;
+  bottom: -35px;
+  margin: 0 auto;
+}
+
+.introCopy {
+  background-color: #663339;
+  padding: 3.5em 0 1em 0;
+  text-align: center;
+}
+
+.introCopy p {
+  color: #f6f2de;
+}
+
+.introCopy strong {
+  color: #ff782e;
+}
+
+/* ---------------------
+SIGN UP FORM
+--------------------- */
+
+.signup {
   text-align:center;
-  font-family: 'Roboto', sans-serif;
+  padding:2em 1em;
+  background: #ff782e;
 }
 
-.signup{
-  text-align:center;
-  padding:1.5em;
+.signup h4 {
+  color: #f6f2de;
 }
-
 
 input {
-  padding: 9px;
-  border: solid 1px #663339;
+  padding: 0.75em 1em;
   outline: 0;
-  font: normal .8em 'Roboto' sans-serif;
-  width: 250px;
-  background: #FFFFFF;
-  text-align:center;
+  font: normal 1em 'Roboto' sans-serif;
+  text-align: center;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
-input:hover,
-input:focus {
-  border-color: #ff782e;
+input.email {
+  background: #f6f2de;
+  color: #663339;
+  border: solid 2px #e86b26;
+  width: 40%;
+  margin-bottom: 0.75em;
+}
+
+/* mobile */
+@media screen and (max-width: 48em) {
+  input.email {
+    width: 100%;
+  }
+}
+
+input.email:hover,
+input.email:focus {
+  border-color: #663339;
 }
 
 .signupButton{
-  background-color:#663339;
-  color:#f6f2de;
+  background-color: #663339;
+  color: #f6f2de;
+  width: auto;
+  border: none;
+  border-radius: 0.4em;
+  padding: ;
 }
 
-a {
-  color: #e86b26;
-  text-decoration:none;
-  border-bottom: dotted 1px #663339;
-}
-
-a.imga {border:none;}
-
-/* ENDS HERE?*/
-
-
-
-
-
-
-
-
-.header h1, .header h2{
-  margin:0;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
-}
-
-.headrow{
-  background:#f0efed;
-  color:#111111;
-  padding: 2em 1em 1em;
-  margin-bottom:1em;
+.signupButton:hover,
+.signupButton:focus{
+  background-color: #4f282c;
 }
 
 
 
+/* ---------------------
+HACKATHONS
+--------------------- */
 
-
-.headrow p {margin-bottom:0;}
-
-.bene-icon{
-  float:left;
-  margin-right:8px;
-  color: #A1A09A;
+#hackathons{
+  background-color: #f6f2de;
+  text-align: center;
+  padding: 2em 0 1em 0;
 }
 
-.pure-u-sm-bene-pad {
-  margin-bottom:1em;
+#hackathons p {
+  text-align: left;
 }
 
-.shadow {
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  box-shadow:         3px 3px 5px 6px #ccc;
+#hackathons img {
+  margin-bottom: 1em;
+}
+
+/* ---------------------
+FOOTER
+--------------------- */
+
+.footrow{
+  padding: 2em 0;
+  text-align: center;
+  background: #663339;
 }
