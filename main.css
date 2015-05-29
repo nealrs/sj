@@ -117,6 +117,7 @@ SIGN UP FORM
   text-align:center;
   padding:2em 1em;
   background: #ff782e;
+  
 }
 
 .signup h4 {
@@ -130,6 +131,7 @@ input {
   text-align: center;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
+  margin-bottom:.3em;
 }
 
 input.email {
