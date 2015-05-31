@@ -22,6 +22,7 @@ h4 {
   text-transform: uppercase;
   padding: 0 1em;
   margin: 0 0 0.4em 0;
+  word-spacing: 0.1em;
 }
 
 h5 {
@@ -43,6 +44,7 @@ h6 {
   text-transform: uppercase;
   padding: 0 1em;
   margin: 0 0 1em 0;
+  word-spacing: 0.2em;
 }
 
 a, h4{
@@ -192,6 +194,47 @@ HACKATHONS
 	opacity: 0.5;
     filter: alpha(opacity=50);
 }
+
+/* ---------------------
+SPONSORS
+--------------------- */
+
+.sponsor-divider{
+  padding: 2em 0;
+  text-align: center;
+  background: #ff782e;
+}
+
+.sponsor-divider h4 {
+  color: #f6f2de;
+  margin: 0;
+}
+
+.sponsors {
+  background-color: #f6f2de;
+  text-align: center;
+  padding: 2em 0 1em 0;
+}
+
+.sponsors img {
+  margin: 0 2em 1em 0;
+}
+
+.title-sponsors img:last-of-type,
+.supporters img:last-of-type {
+  margin-right: 0;
+}
+
+.sponsors h6 {
+  margin: 2em 0 1em 0;
+  color: #e86b26;
+}
+
+.title-sponsors h6 {
+  margin: 0 0 1em 0;
+}
+
+
 
 /* ---------------------
 FOOTER
