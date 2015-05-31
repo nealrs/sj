@@ -225,6 +225,12 @@ SPONSORS
   margin-right: 0;
 }
 
+/*.title-sponsors img:nth-last-of-type(2),
+.supporters img:nth-last-of-type(2) {
+  margin-left: 0;
+  margin-right: 0;
+}*/
+
 .sponsors h6 {
   margin: 2em 0 1em 0;
   color: #e86b26;
