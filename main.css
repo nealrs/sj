@@ -251,3 +251,10 @@ FOOTER
   text-align: center;
   background: #663339;
 }
+
+/* mobile */
+@media screen and (max-width: 48em) {
+  .title-sponsors img {
+    margin-right: 0;
+  }
+}
