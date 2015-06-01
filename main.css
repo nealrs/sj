@@ -255,6 +255,11 @@ FOOTER
 /* mobile */
 @media screen and (max-width: 48em) {
   .title-sponsors img {
-    margin-right: 0;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .title-sponsors img:last-of-type {
+    margin: 0 auto;
   }
 }
