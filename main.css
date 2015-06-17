@@ -99,7 +99,7 @@ HEADER
 
 .introCopy {
   background-color: #663339;
-  padding: 3.5em 0 1em 0;
+  padding: 3.5em 0 2em 0;
   text-align: center;
 }
 
@@ -109,6 +109,33 @@ HEADER
 
 .introCopy strong {
   color: #ff782e;
+}
+
+.introCopy .socialicon:first-of-type {
+  margin-right: 1em;
+}
+
+.introCopy h6 {
+  color: #f6f2de;
+}
+
+.introCopy .socialicon img {
+   opacity:  0.6;
+}
+
+.introCopy .socialicon:hover img {
+   opacity:  1;
+}
+
+/* mobile */
+@media screen and (max-width: 48em) {
+  .introCopy .socialicon {
+    margin-right: 1em;
+  }
+
+  .introCopy .socialicon:last-of-type {
+    margin-right: 0;
+  }
 }
 
 /* ---------------------
@@ -167,6 +194,20 @@ input.email:focus {
 
 .signupButton:hover,
 .signupButton:focus{
+  background-color: #4f282c;
+}
+
+.shareButton{
+  background-color: #f6f2de;
+  color: #111;
+  width: auto;
+  border: none;
+  border-radius: 0.4em;
+  padding: ;
+}
+
+.shareButton:hover,
+.shareButton:focus{
   background-color: #4f282c;
 }
 
